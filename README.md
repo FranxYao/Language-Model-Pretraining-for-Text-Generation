@@ -5,7 +5,7 @@ First, the four mosts well known models:
 
 * Language Models are Unsupervised Multitask Learners (GPT2)
 
-* BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+* BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, NAACL 19 
 
 * Improving Language Understanding by Generative Pre-Training (GPT)
 
@@ -30,3 +30,7 @@ Then, other important models
 * Cross-lingual Language Model Pretraining, Arxiv 19 
   * Guillaume Lample, Alexis Conneau, FAIR 
   * Application to Cross-lingual classification, Unsupervised machine translation, Supervised machine translation (low-resource), Low-resource language model 
+
+* Semi-Supervised Sequence Modeling with Cross-View Training. (CVT) EMNLP 18  
+  * Kevin Clark, Minh-Thang Luong, Christopher D. Manning, Quoc V. Le
+  * Semi-supervised learning with multi-task learning. MT is one application. Also improvements on other tasks 
