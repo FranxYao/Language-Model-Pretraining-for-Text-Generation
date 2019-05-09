@@ -19,6 +19,9 @@ Then, other published models
   * Prajit Ramachandran and Peter J. Liu and Quoc V. Le, Google Brain 
   * The LM pretraining idea, before BERT. Effective on MT and Summarization. 
 
+* MASS: Masked Sequence to Sequence Pre-training for Language Generation, ICML 19 
+  * Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu, Tie-Yan Liu, NJU and MSRA
+
 * Pre-trained Language Model Representations for Language Generation, NAACL 19
   * Sergey Edunov, Alexei Baevski, Michael Auli, FAIR
   * LM pretraining fine tuned on different size of MT data. The smaller the more performance gain. 
@@ -28,6 +31,9 @@ Then, other published models
   * Semi-supervised learning with multi-task learning. MT is one application. Also improvements on other tasks 
 
 And other Arxiv papers
+
+* Unified Language Model Pre-training for Natural Language Understanding and Generation 
+  * Li Dong, Nan Yang, Wenhui Wang, Furu Wei, Xiaodong Liu, Yu Wang, Jianfeng Gao, Ming Zhou, Hsiao-Wuen Hon. MSR
 
 * Few-shot NLG with Pre-trained Language Model
   * Zhiyu Chen, Harini Eavani, Yinyin Liu, and William Yang Wang
@@ -44,4 +50,6 @@ And other Arxiv papers
 * Constant-Time Machine Translation with Conditional Masked Language Models ([link](https://arxiv.org/pdf/1904.09324.pdf))
   * Marjan Ghazvininejad, Omer Levy, Yinhan Liu and Luke Zettlemoyer
   * Iterative decoding: generate with BERT, then polish with BERT, then continue polish
+  
+
 
