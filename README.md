@@ -7,20 +7,25 @@ LM pretraining for generation, reading list, resources, conference mappings.
 
 ----
 
-First, the four mosts well known models: 
-
-* Language Models are Unsupervised Multitask Learners (GPT2)
+* Deep contextualized word representations (ELMo). NAACL 18 
+  * I just like ELMo and AI2. 
 
 * BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, NAACL 19 
 
+* BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension. 
+  * Current SOTA on summarization 
+
+* Language Models are Unsupervised Multitask Learners (GPT2)
+
 * Improving Language Understanding by Generative Pre-Training (GPT)
 
-* Deep contextualized word representations (ELMo)
+* Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer (T5)
 
-In general, the current (more or less) consensus is, BERT is not suitable for generation. But GPT is. Because of the uni-directional v.s. bi-directional objective. s
-
-Then, other published models 
-
+* Unified Language Model Pre-training for Natural Language Understanding and Generation (UniLM), NeurIPS 19
+  * Li Dong, Nan Yang, Wenhui Wang, Furu Wei, Xiaodong Liu, Yu Wang, Jianfeng Gao, Ming Zhou, Hsiao-Wuen Hon. MSR
+  
+* Text Summarization with Pretrained Encoders. ACL 19
+  
 * Unsupervised Pretraining for Sequence to Sequence Learning, EMNLP 17 
   * Prajit Ramachandran and Peter J. Liu and Quoc V. Le, Google Brain 
   * The LM pretraining idea, before BERT. Effective on MT and Summarization. 
@@ -35,11 +40,6 @@ Then, other published models
 * Semi-Supervised Sequence Modeling with Cross-View Training. (CVT) EMNLP 18  
   * Kevin Clark, Minh-Thang Luong, Christopher D. Manning, Quoc V. Le
   * Semi-supervised learning with multi-task learning. MT is one application. Also improvements on other tasks 
-
-And other Arxiv papers
-
-* Unified Language Model Pre-training for Natural Language Understanding and Generation 
-  * Li Dong, Nan Yang, Wenhui Wang, Furu Wei, Xiaodong Liu, Yu Wang, Jianfeng Gao, Ming Zhou, Hsiao-Wuen Hon. MSR
 
 * Few-shot NLG with Pre-trained Language Model
   * Zhiyu Chen, Harini Eavani, Yinyin Liu, and William Yang Wang
